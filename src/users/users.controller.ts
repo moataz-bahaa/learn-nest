@@ -25,6 +25,7 @@ export class UsersController {
 
   @Get()
   findAll() {
+    // throw new BadRequestException('plz provide all data');
     return this.usersService.findAll();
   }
 
